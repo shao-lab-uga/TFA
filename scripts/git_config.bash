@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set git user email
-git config --global user.email "hg25079@uga.edu"
+git config --global user.email ""
 
 # Set git user name
-git config --global user.name "Hetian Guo"
+git config --global user.name ""

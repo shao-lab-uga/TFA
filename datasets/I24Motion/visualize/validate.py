@@ -5,7 +5,7 @@ import numpy as np
 if __name__ == "__main__":
     # config = load_config("configs/model_configs/AROccFlowNetS.py")
     # occupancy_map_config = config.dataset_config.occupancy_flow_map
-    test_data = np.load("/hdd/HetianGuo/MotionPrediction/Datasets/I24Motion/generated_data/scene_2839.npy", allow_pickle=True).item()
+    test_data = np.load("", allow_pickle=True).item()
     test_data = test_data['cur']
     k = 2
     # validate_flow_wrap_occupancy(test_data, occupancy_map_config, k)

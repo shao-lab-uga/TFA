@@ -120,7 +120,7 @@ config = dict(
             num_waypoints=num_waypoints,
 
             backbone_model_config=backbone_model_config,
-            pretrained_backbone_path='/hdd/HetianGuo/MotionPrediction/OccupancyFLowPrediction/Occupancy-FLow-Prediction/exp/AROccFlowNetOneStepS/checkpoints/epoch_30.pth',
+            pretrained_backbone_path='',
 
             memory_gru=dict(
                 hidden_channels=[hidden_dim, embed_dims[0]//2],

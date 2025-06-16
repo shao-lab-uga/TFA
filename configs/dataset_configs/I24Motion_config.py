@@ -4,7 +4,7 @@ from sympy import root
 dataset = 'I24Motion'
 
 # ============= Path ===================
-dataset_root_dir = '/hdd/HetianGuo/MotionPrediction/Datasets/I24Motion'
+dataset_root_dir = ''
 raw_data_path = 'raw_data/'
 auxilary_data_path = 'auxiliary_data/'
 processed_data_path = 'processed_data/'
